@@ -39,7 +39,3 @@ async function seedDatabase(seedQuery) {
         return console.log(error)
     }
 }
-function cloneArray(array) {
-    return [...array]
-}
-module.exports = { seedDatabase, connectDatabse, cloneArray }
